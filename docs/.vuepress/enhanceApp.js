@@ -6,6 +6,5 @@ export default ({
   options,
   router
 }) => {
-  console.log(Vue.use(MakaUI), 66666)
   Vue.use(MakaUI)
 }

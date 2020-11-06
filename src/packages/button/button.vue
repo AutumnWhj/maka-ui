@@ -1,5 +1,5 @@
 <template>
-  <button class="maka-button" :class="{[`maka-button-${type}`]: true}" type="button">
+  <button class="mk-button" :class="{[`mk-button-${type}`]: true}" type="button">
     <slot></slot>
   </button>
 </template>
