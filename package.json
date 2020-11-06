@@ -4,7 +4,11 @@
   "description": "vue.js component library for maka",
   "main": "lib/maka-ui.min.js",
   "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "build:style": "gulp --gulpfile build/gulp-style.js",
     "build:prod": "webpack --config build/webpack.prod.js",
+    "build:components": "webpack --config build/webpack.component.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
