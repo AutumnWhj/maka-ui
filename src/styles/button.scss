@@ -25,7 +25,6 @@
     border-color: #555;
 
     &:active,
-    &:focus,
     &:hover {
       background-color: rgba($--color-primary, 0.3);
     }
@@ -35,7 +34,6 @@
     background-color: $--color-primary;
 
     &:active,
-    &:focus,
     &:hover {
       background-color: mix($--color-primary, #ccc);
     }
@@ -46,7 +44,6 @@
     background-color: $--color-info;
 
     &:active,
-    &:focus,
     &:hover {
       background-color: mix($--color-info, #ccc);
     }
@@ -56,7 +53,6 @@
     background-color: $--color-success;
 
     &:active,
-    &:focus,
     &:hover {
       background-color: mix($--color-success, #ccc);
     }

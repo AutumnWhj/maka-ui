@@ -1,8 +1,13 @@
 import Button from './packages/button'
+import Form from './packages/form'
+import FormItem from './packages/form-item'
+import Input from './packages/input'
 
-console.log(3333, Button)
 const components = {
-  mkButton: Button
+  mkButton: Button,
+  mkForm: Form,
+  mkFormItem: FormItem,
+  mkInput: Input,
 }
 
 const install = function (Vue, options = {}) {
